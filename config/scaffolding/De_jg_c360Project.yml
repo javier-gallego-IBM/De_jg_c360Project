@@ -7,3 +7,62 @@ packages:
   gitUrl: https://github.com/javier-gallego-IBM
   gitUsername: javier-gallego-IBM
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+services:
+- serviceName: project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_AT
+  packages:
+  - name: De_jg_c360Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+configurationVariables:
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionManagerSettings.minimumPoolSize
+  : "1"
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.portNumber
+  : "1433"
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionManagerSettings.poolable
+  : "true"
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.user
+  : sa
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.password
+  : "{AES}dRM0NVPpmTgpqzTywTUYcHMQQRNeK+nwifXopTnB/xM="
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.serverName
+  : da_db
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.keyStore
+  : ""
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionManagerSettings.maximumPoolSize
+  : "2"
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.databaseName
+  : da-anywhere
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionSettings.trustStore
+  : ""
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionEnabled
+  : "false"
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.De_jg_c360Project.project.de_jg_c360.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_AT.connectionManagerSettings.startupRetryCount
+  : "0"
