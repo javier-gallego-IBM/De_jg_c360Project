@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: De_jg_c360Project
+  gitServerName: DE_JG_JustGit
+  gitUrl: https://github.com/javier-gallego-IBM
+  gitUsername: javier-gallego-IBM
+  gitBranch: main
